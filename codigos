@@ -1,0 +1,35 @@
+1tupla_numeros = (10,20,30)
+tupla_nova = 10,20,30
+tupla_elememento = 10 
+tupla_vazia = ()
+nova_tupla = tuple ("teste")
+
+nova_tupla
+
+2#crie uma tupla e as conte 
+tupla_nomes = ("marlene", "zezinho", "marlene", "cibele","zuely")
+tupla_nomes.count ("marlene")
+print (tupla_nomes.count ("suely"))
+print (tupla_nomes.count ("zezinho"))
+
+3 #crie uma tupla com os elementos 1,2,2,3,4,4,4 depois as conte 
+tupla_numeros  = (1,2,2,3,4,4,4)
+tupla_numeros.count(4)
+
+4 #criando um dicionario
+dicio = {"chave": "valor"}
+print (type(dicio))
+
+5 #o que acontece em cada sequencia de comandos 
+d = {"laranjas": 15, "bananas": 35, "siriguelas":12}
+print (d["bananas"])
+ d["pitombas"] = 20
+len (d)
+"pitombas" in d
+"pears" in d
+
+6 frutas= ["pinha", "oiti coro", "jaca", "tamarindo"]
+print ([1,2] + [3,4])
+print (frutas + [ 6,7,8,9])
+print ([0] * 4)
+print ([1,2,["oi","tchau"]] *2)
